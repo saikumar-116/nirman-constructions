@@ -37,8 +37,8 @@ h5 {
   margin: 0 auto;
   padding: 0 20px;
 }
-
 /* Header Styles */
+
 header {
   position: fixed;
   top: 0;
@@ -46,13 +46,25 @@ header {
   width: 100%;
   z-index: 1000;
   padding: 20px 0;
-  transition: var(--transition);
-  background-color: rgba(18, 30, 40, 0.95);
+  transition: all 0.3s ease;
+  background-color: transparent;
 }
 
+/* Menu text WHITE on home */
+header nav ul li a {
+  color: #ffffff;
+}
+
+/* After scroll */
 header.scrolled {
-  padding: 15px 0;
+  background-color: #fff;
+  padding: 7px 0;
   box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
+}
+
+/* Menu text BLACK after scroll */
+header.scrolled nav ul li a {
+  color: #000000;
 }
 
 .nav-container {
@@ -61,18 +73,19 @@ header.scrolled {
   align-items: center;
 }
 
+/* Logo Image */
 .logo {
-  font-family: "Playfair Display", serif;
-  font-size: 28px;
-  font-weight: 700;
-  color: var(--primary);
-  text-decoration: none;
+  display: flex;
+  align-items: center;
 }
 
-.logo span {
-  color: var(--light);
+.logo img {
+  height: 80px;      /* 🔥 Increase here (try 70px / 80px / 90px) */
+  width: auto;
+  object-fit: contain;
 }
 
+/* Navigation */
 nav ul {
   display: flex;
   list-style: none;
@@ -110,11 +123,18 @@ nav ul li a:hover::after {
   width: 100%;
 }
 
+/* Mobile Menu Icon */
 .mobile-toggle {
   display: none;
   font-size: 24px;
   color: var(--light);
   cursor: pointer;
+}
+
+@media (max-width: 768px) {
+  .logo img {
+    height: 40px;
+  }
 }
 
 /* Hero Section */
@@ -524,6 +544,18 @@ footer {
   border-top: 1px solid rgba(255, 255, 255, 0.1);
   opacity: 0.7;
   font-size: 14px;
+}
+/* Footer Logo */
+.footer-logo img {
+  height: 40px; /* adjust size if needed */
+  width: 100px;
+  object-fit: cover;
+  margin-bottom: 15px;
+}
+@media (max-width: 768px) {
+  .footer-logo img {
+    height: 50px;
+  }
 }
 
 /* Animation Classes */

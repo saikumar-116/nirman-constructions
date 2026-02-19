@@ -1,273 +1,341 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>NIRMAN | ENGINEERS & CONSTRUCTIONS</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
-        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Playfair+Display:wght@400;500;600&display=swap"
-        rel="stylesheet">
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="app.js">
-</head>
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Playfair+Display:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="app.js" />
+    <link rel="icon" type="image/x-icon" href="images/nirman_logo.png" />
+  </head>
 
-<body>
+  <body>
     <!-- Header & Navigation -->
     <header id="header">
-        <div class="container nav-container">
-            <a href="#" class="logo">Nirman<span> Engineers & Constructions</span></a>
-            <div class="mobile-toggle" id="mobileToggle">
-                <i class="fas fa-bars"></i>
-            </div>
-            <nav id="mainNav">
-                <ul>
-                    <li><a href="#home">Home</a></li>
-                    <li><a href="#about">About</a></li>
-                    <li><a href="#services">Services</a></li>
-                    <li><a href="#portfolio">Portfolio</a></li>
-                    <li><a href="#contact">Contact</a></li>
-                </ul>
-            </nav>
+      <div class="container nav-container">
+        <!-- Logo Image -->
+        <a href="#" class="logo">
+          <img
+            src="images/nirman_logo.png"
+            alt="Nirman Engineers & Constructions Logo"
+          />
+        </a>
+
+        <div class="mobile-toggle" id="mobileToggle">
+          <i class="fas fa-bars"></i>
         </div>
+
+        <nav id="mainNav">
+          <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
     </header>
 
     <!-- Hero Section -->
     <section class="hero" id="home">
-        <div class="container">
-            <div class="hero-content">
-                <h1>Building Excellence, Designing Dreams</h1>
-                <p>Nirman Engineers & Constructions delivers premium construction and interior/exterior design services
-                    with unparalleled craftsmanship and attention to detail.</p>
-                <a href="#contact" class="btn">Start Your Project</a>
-            </div>
+      <div class="container">
+        <div class="hero-content">
+          <h1>Building Excellence, Designing Dreams</h1>
+          <p>
+            Nirman Engineers & Constructions delivers premium construction and
+            interior/exterior design services with unparalleled craftsmanship
+            and attention to detail.
+          </p>
+          <a href="#contact" class="btn">Start Your Project</a>
         </div>
+      </div>
     </section>
 
     <!-- About Section -->
     <section id="about">
-        <div class="container">
-            <div class="section-title">
-                <h2>About Nirman Engineers & Constructions</h2>
-                <p>With over 20 years of experience in premium construction and design, we transform visions into
-                    reality with precision and excellence.</p>
-            </div>
-            <div class="about-content">
-                <div class="about-text">
-                    <h3>Crafting Spaces That Inspire</h3>
-                    <p>Nirman Engineers & Constructions is a premier construction and design firm specializing in luxury
-                        residential and commercial projects. Our team of architects, designers, and craftsmen work
-                        collaboratively to deliver exceptional results.</p>
-                    <p>We believe in a holistic approach to construction, where every detail matters - from the
-                        foundation to the finishing touches. Our commitment to quality, innovation, and client
-                        satisfaction sets us apart in the industry.</p>
-                    <a href="#services" class="btn">Our Services</a>
-                </div>
-                <div class="about-image">
-                    <img src="images/about/about.png" alt="Construction Team">
-                </div>
-            </div>
+      <div class="container">
+        <div class="section-title">
+          <h2>About Nirman Engineers & Constructions</h2>
+          <p>
+            With over 20 years of experience in premium construction and design,
+            we transform visions into reality with precision and excellence.
+          </p>
         </div>
+        <div class="about-content">
+          <div class="about-text">
+            <h3>Crafting Spaces That Inspire</h3>
+            <p>
+              Nirman Engineers & Constructions is a premier construction and
+              design firm specializing in luxury residential and commercial
+              projects. Our team of architects, designers, and craftsmen work
+              collaboratively to deliver exceptional results.
+            </p>
+            <p>
+              We believe in a holistic approach to construction, where every
+              detail matters - from the foundation to the finishing touches. Our
+              commitment to quality, innovation, and client satisfaction sets us
+              apart in the industry.
+            </p>
+            <a href="#services" class="btn">Our Services</a>
+          </div>
+          <div class="about-image">
+            <img src="images/about/about.png" alt="Construction Team" />
+          </div>
+        </div>
+      </div>
     </section>
 
     <!-- Services Section -->
     <section class="services" id="services">
-        <div class="container">
-            <div class="section-title">
-                <h2>Our Premium Services</h2>
-                <p>We offer a comprehensive range of construction and design services tailored to meet the highest
-                    standards of luxury and functionality.</p>
-            </div>
-            <div class="services-container">
-                <div class="service-card">
-                    <div class="service-img">
-                        <img src="images/services/architectural-design-construction-design.png"
-                            alt="Architectural Design">
-                    </div>
-                    <div class="service-content">
-                        <h3>Architectural Design</h3>
-                        <p>Custom architectural solutions that blend aesthetics with functionality, creating spaces that
-                            inspire and endure.</p>
-                        <a href="#" class="btn">Learn More</a>
-                    </div>
-                </div>
-                <div class="service-card">
-                    <div class="service-img">
-                        <img src="images/services/Interior-Design-Living-Room.png" alt="Interior Design">
-                    </div>
-                    <div class="service-content">
-                        <h3>Interior Design</h3>
-                        <p>Luxury interior design services that create harmonious, beautiful, and functional living and
-                            working environments.</p>
-                        <a href="#" class="btn">Learn More</a>
-                    </div>
-                </div>
-                <div class="service-card">
-                    <div class="service-img">
-                        <img src="images/services/exterior-construction.png" alt="Exterior Construction">
-                    </div>
-                    <div class="service-content">
-                        <h3>Exterior Construction</h3>
-                        <p>High-quality exterior construction with premium materials and craftsmanship for lasting
-                            durability and appeal.</p>
-                        <a href="#" class="btn">Learn More</a>
-                    </div>
-                </div>
-            </div>
+      <div class="container">
+        <div class="section-title">
+          <h2>Our Premium Services</h2>
+          <p>
+            We offer a comprehensive range of construction and design services
+            tailored to meet the highest standards of luxury and functionality.
+          </p>
         </div>
+        <div class="services-container">
+          <div class="service-card">
+            <div class="service-img">
+              <img
+                src="images/services/architectural-design-construction-design.png"
+                alt="Architectural Design"
+              />
+            </div>
+            <div class="service-content">
+              <h3>Architectural Design</h3>
+              <p>
+                Custom architectural solutions that blend aesthetics with
+                functionality, creating spaces that inspire and endure.
+              </p>
+              <a href="#" class="btn">Learn More</a>
+            </div>
+          </div>
+          <div class="service-card">
+            <div class="service-img">
+              <img
+                src="images/services/Interior-Design-Living-Room.png"
+                alt="Interior Design"
+              />
+            </div>
+            <div class="service-content">
+              <h3>Interior Design</h3>
+              <p>
+                Luxury interior design services that create harmonious,
+                beautiful, and functional living and working environments.
+              </p>
+              <a href="#" class="btn">Learn More</a>
+            </div>
+          </div>
+          <div class="service-card">
+            <div class="service-img">
+              <img
+                src="images/services/exterior-construction.png"
+                alt="Exterior Construction"
+              />
+            </div>
+            <div class="service-content">
+              <h3>Exterior Construction</h3>
+              <p>
+                High-quality exterior construction with premium materials and
+                craftsmanship for lasting durability and appeal.
+              </p>
+              <a href="#" class="btn">Learn More</a>
+            </div>
+          </div>
+        </div>
+      </div>
     </section>
 
     <!-- Portfolio Section -->
     <section id="portfolio">
-        <div class="container">
-            <div class="section-title">
-                <h2>Our Portfolio</h2>
-                <p>Explore our collection of premium construction and design projects that showcase our commitment to
-                    excellence.</p>
-            </div>
-            <div class="portfolio-container">
-                <div class="portfolio-item">
-                    <img src="images/portfolio/modern-villla.png" alt="Modern Villa">
-                    <div class="portfolio-overlay">
-                        <div>
-                            <h3>Modern Villa</h3>
-                            <p>Residential construction with minimalist design</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="portfolio-item">
-                    <img src="images/portfolio/luxury-penthouse.png" alt="Luxury Penthouse">
-                    <div class="portfolio-overlay">
-                        <div>
-                            <h3>Luxury Penthouse</h3>
-                            <p>Interior design for a high-end urban residence</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="portfolio-item">
-                    <img src="images/portfolio/commercial-complex.png" alt="Commercial Complex">
-                    <div class="portfolio-overlay">
-                        <div>
-                            <h3>Commercial Complex</h3>
-                            <p>Full-service construction of a modern office building</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
+      <div class="container">
+        <div class="section-title">
+          <h2>Our Portfolio</h2>
+          <p>
+            Explore our collection of premium construction and design projects
+            that showcase our commitment to excellence.
+          </p>
         </div>
+        <div class="portfolio-container">
+          <div class="portfolio-item">
+            <img src="images/portfolio/modern-villla.png" alt="Modern Villa" />
+            <div class="portfolio-overlay">
+              <div>
+                <h3>Modern Villa</h3>
+                <p>Residential construction with minimalist design</p>
+              </div>
+            </div>
+          </div>
+          <div class="portfolio-item">
+            <img
+              src="images/portfolio/luxury-penthouse.png"
+              alt="Luxury Penthouse"
+            />
+            <div class="portfolio-overlay">
+              <div>
+                <h3>Luxury Penthouse</h3>
+                <p>Interior design for a high-end urban residence</p>
+              </div>
+            </div>
+          </div>
+          <div class="portfolio-item">
+            <img
+              src="images/portfolio/commercial-complex.png"
+              alt="Commercial Complex"
+            />
+            <div class="portfolio-overlay">
+              <div>
+                <h3>Commercial Complex</h3>
+                <p>Full-service construction of a modern office building</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </section>
 
     <!-- Contact Section -->
     <section class="contact" id="contact">
-        <div class="container">
-            <div class="section-title">
-                <h2>Contact Us</h2>
-                <p>Ready to start your premium construction or design project? Get in touch with our team for a
-                    consultation.</p>
-            </div>
-            <div class="contact-container">
-                <div class="contact-info">
-                    <h3>Let's Build Something Extraordinary</h3>
-                    <p>Contact us today to discuss your project requirements and discover how Nirman Engineers &
-                        Constructions can bring your vision to life with precision and excellence.</p>
-                    <div class="contact-detail">
-                        <i class="fas fa-map-marker-alt"></i>
-                        <div>
-                            <h4>Our Office</h4>
-                            <p>123 Premium Avenue, Design District, NY 10001</p>
-                        </div>
-                    </div>
-                    <div class="contact-detail">
-                        <i class="fas fa-phone"></i>
-                        <div>
-                            <h4>Phone Number</h4>
-                            <p>+1 (555) 123-4567</p>
-                        </div>
-                    </div>
-                    <div class="contact-detail">
-                        <i class="fas fa-envelope"></i>
-                        <div>
-                            <h4>Email Address</h4>
-                            <p>info@Nirman Engineers & Constructions.com</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="contact-form">
-                    <form id="contactForm">
-                        <div class="form-group">
-                            <input type="text" placeholder="Your Name" required>
-                        </div>
-                        <div class="form-group">
-                            <input type="email" placeholder="Your Email" required>
-                        </div>
-                        <div class="form-group">
-                            <input type="text" placeholder="Project Type" required>
-                        </div>
-                        <div class="form-group">
-                            <textarea placeholder="Project Details" required></textarea>
-                        </div>
-                        <button type="submit" class="btn">Send Message</button>
-                    </form>
-                </div>
-            </div>
+      <div class="container">
+        <div class="section-title">
+          <h2>Contact Us</h2>
+          <p>
+            Ready to start your premium construction or design project? Get in
+            touch with our team for a consultation.
+          </p>
         </div>
+        <div class="contact-container">
+          <div class="contact-info">
+            <h3>Let's Build Something Extraordinary</h3>
+            <p>
+              Contact us today to discuss your project requirements and discover
+              how Nirman Engineers & Constructions can bring your vision to life
+              with precision and excellence.
+            </p>
+            <div class="contact-detail">
+              <i class="fas fa-map-marker-alt"></i>
+              <div>
+                <h4>Our Office</h4>
+                <p>123 Premium Avenue, Design District, NY 10001</p>
+              </div>
+            </div>
+            <div class="contact-detail">
+              <i class="fas fa-phone"></i>
+              <div>
+                <h4>Phone Number</h4>
+                <p>+1 (555) 123-4567</p>
+              </div>
+            </div>
+            <div class="contact-detail">
+              <i class="fas fa-envelope"></i>
+              <div>
+                <h4>Email Address</h4>
+                <p>info@Nirman Engineers & Constructions.com</p>
+              </div>
+            </div>
+          </div>
+          <div class="contact-form">
+            <form id="contactForm">
+              <div class="form-group">
+                <input type="text" placeholder="Your Name" required />
+              </div>
+              <div class="form-group">
+                <input type="email" placeholder="Your Email" required />
+              </div>
+              <div class="form-group">
+                <input type="text" placeholder="Project Type" required />
+              </div>
+              <div class="form-group">
+                <textarea placeholder="Project Details" required></textarea>
+              </div>
+              <button type="submit" class="btn">Send Message</button>
+            </form>
+          </div>
+        </div>
+      </div>
     </section>
 
     <!-- Footer -->
     <footer>
-        <div class="container">
-            <div class="footer-container">
-                <div class="footer-column">
-                    <h3>Nirman Engineers & Constructions</h3>
-                    <p>Premium construction and design services with a commitment to excellence, innovation, and client
-                        satisfaction.</p>
-                    <div class="social-icons">
-                        <a href="#"><i class="fab fa-facebook-f"></i></a>
-                        <a href="#"><i class="fab fa-twitter"></i></a>
-                        <a href="#"><i class="fab fa-instagram"></i></a>
-                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
-                    </div>
-                </div>
-                <div class="footer-column">
-                    <h3>Quick Links</h3>
-                    <ul class="footer-links">
-                        <li><a href="#home">Home</a></li>
-                        <li><a href="#about">About Us</a></li>
-                        <li><a href="#services">Services</a></li>
-                        <li><a href="#portfolio">Portfolio</a></li>
-                        <li><a href="#contact">Contact</a></li>
-                    </ul>
-                </div>
-                <div class="footer-column">
-                    <h3>Our Services</h3>
-                    <ul class="footer-links">
-                        <li><a href="#">Architectural Design</a></li>
-                        <li><a href="#">Interior Design</a></li>
-                        <li><a href="#">Exterior Construction</a></li>
-                        <li><a href="#">Project Management</a></li>
-                        <li><a href="#">Renovation</a></li>
-                    </ul>
-                </div>
-                <div class="footer-column">
-                    <h3>Contact Info</h3>
-                    <ul class="footer-links">
-                        <li><i class="fas fa-map-marker-alt"></i> 123 Premium Ave, NY 10001</li>
-                        <li><i class="fas fa-phone"></i> +1 (555) 123-4567</li>
-                        <li><i class="fas fa-envelope"></i> info@Nirman Engineers & Constructions.com</li>
-                        <li><i class="fas fa-clock"></i> Mon-Fri: 9AM-6PM</li>
-                    </ul>
-                </div>
+      <div class="container">
+        <div class="footer-container">
+          <div class="footer-column">
+            <div class="footer-logo">
+              <img
+                src="images/nirman_logo.png"
+                alt="Nirman Engineers & Constructions Logo"
+              />
             </div>
-            <div class="copyright">
-                <p>&copy; 2026 Nirman Engineers & Constructions. All rights reserved.</p>
+
+            <p>
+              Premium construction and design services with a commitment to
+              excellence, innovation, and client satisfaction.
+            </p>
+
+            <div class="social-icons">
+              <a href="#"><i class="fab fa-facebook-f"></i></a>
+              <a href="#"><i class="fab fa-twitter"></i></a>
+              <a href="#"><i class="fab fa-instagram"></i></a>
+              <a href="#"><i class="fab fa-linkedin-in"></i></a>
             </div>
+          </div>
+
+          <div class="footer-column">
+            <h3>Quick Links</h3>
+            <ul class="footer-links">
+              <li><a href="#home">Home</a></li>
+              <li><a href="#about">About Us</a></li>
+              <li><a href="#services">Services</a></li>
+              <li><a href="#portfolio">Portfolio</a></li>
+              <li><a href="#contact">Contact</a></li>
+            </ul>
+          </div>
+          <div class="footer-column">
+            <h3>Our Services</h3>
+            <ul class="footer-links">
+              <li><a href="#">Architectural Design</a></li>
+              <li><a href="#">Interior Design</a></li>
+              <li><a href="#">Exterior Construction</a></li>
+              <li><a href="#">Project Management</a></li>
+              <li><a href="#">Renovation</a></li>
+            </ul>
+          </div>
+          <div class="footer-column">
+            <h3>Contact Info</h3>
+            <ul class="footer-links">
+              <li>
+                <i class="fas fa-map-marker-alt"></i> 123 Premium Ave, NY 10001
+              </li>
+              <li><i class="fas fa-phone"></i> +1 (555) 123-4567</li>
+              <li>
+                <i class="fas fa-envelope"></i> info@Nirman Engineers &
+                Constructions.com
+              </li>
+              <li><i class="fas fa-clock"></i> Mon-Fri: 9AM-6PM</li>
+            </ul>
+          </div>
         </div>
+        <div class="copyright">
+          <p>
+            &copy; 2026 Nirman Engineers & Constructions. All rights reserved.
+          </p>
+        </div>
+      </div>
     </footer>
 
     <script src="app.js"></script>
-</body>
-
+  </body>
 </html>
